@@ -1,0 +1,558 @@
+
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+      }
+
+      .headcontainer {
+        background-image: url(img/1_hero/JPG/hero_bg.jpg);
+        background-position: bottom;
+        background-size: cover;
+        height: 100vh;
+      }
+
+      .raleway {
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      }
+
+      .raleway-bold {
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .economica-bold {
+        font-family: "Economica", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .titelcontainer {
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-top: 150px;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .company-name {
+        margin: 0;
+        font-size: 94px;
+        text-align: center;
+      }
+      .slogan {
+        font-size: 24px;
+        text-align: center;
+      }
+      .nav-container {
+        padding-right: 160px;
+        padding-left: 160px;
+        padding-top: 24px;
+        font-size: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .menu-bar:hover {
+        color: #9f0908;
+      }
+      .menu-bar {
+        color: white;
+        text-decoration: none;
+      }
+
+      .logoflower {
+        width: 64px;
+        height: 64px;
+      }
+
+      .phone-btm {
+        padding: 8px 8px;
+        text-decoration: none;
+        color: white;
+        background-color: #9f0908;
+        border-width: 2px;
+        border-image: initial;
+        border-radius: 8px;
+        border: solid;
+        display: flex;
+        align-items: center;
+      }
+      .phone-btm:hover {
+        background-color: #9b5d5d;
+      }
+      .logo-phone {
+        width: 24px;
+      }
+
+      .nav-menu-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      h2 {
+        padding-top: 120px;
+        margin: 0;
+        font-size: 80px;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #9f0908;
+        text-align: center;
+        padding-bottom: 64px;
+      }
+
+      .dishes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        gap: 120px;
+        padding-right: 160px;
+        padding-left: 160px;
+        padding-bottom: 120px;
+      }
+
+      .logo-dishes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 128px;
+        margin: auto;
+        margin-bottom: 16x;
+      }
+      .text-dishes {
+        font-size: 56px;
+      }
+
+      .head-ourmenu {
+        background-image: url(img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+        background-size: cover;
+        background-position: bottom;
+      }
+
+      .ourmenu {
+        padding-left: 160px;
+        padding-bottom: 120px;
+        padding-right: 160px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .titel-ourmenu {
+        padding-bottom: 64px;
+      }
+      .ramen-tonkotsu {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+       
+      }
+      .ramen-shio {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+      }
+      .ramen-spicymiso {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+      .table-ramen {
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 56px;
+        width: 600px;
+      }
+
+      .ramen-photo {
+        width: 352px;
+        height: 352px;
+        padding-right: 80px;
+      }
+      .ramen-photo-right{
+        width: 352px;
+        height: 352px;
+        padding-left: 80px;
+      }
+
+      .ramen-titel {
+        font-size: 56px;
+        padding-bottom: 16px;
+        text-align: start;
+      }
+
+      td {
+        font-size: 32px;
+        color: #675e54;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding-bottom: 8px;
+      }
+
+      .tite-findusat {
+        padding-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .addres {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: #000000;
+        padding-bottom: 64px;
+      }
+      .map-marker {
+        width: 20px;
+      }
+      .map {
+        width: 100%;
+      }
+      .footer {
+        background-color: #000000;
+        padding-left: 160px;
+        padding-right: 160px;
+        height: 144px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+     
+      .logo-sakura-footer {
+        max-height: 44px;
+      }
+      .logo-sakura-media{
+        visibility: hidden;
+      }
+      .sociallogo {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+      }
+
+  @media(max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+    .company-name {
+        font-size: 60px;
+    }
+    
+    .nav-container {
+     padding-right: 16px;
+    padding-left: 16px;
+    }
+    .logoflower {
+      width: 40px;
+      height: 40px;
+    }
+    .phone-btm {
+      font-size: 16px;
+    }
+    .slogan{
+      font-size: 16px;
+    }
+    .titelcontainer {
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    p {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    h2 {
+        padding-right: 16px;
+        padding-left: 16px; 
+        font-size: 40px;
+        padding-top: 72px;
+    }
+    .dishes {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-bottom: 72px;
+    }
+    .text-dishes {
+        font-size: 32px;
+    }
+    .logo-dishes {
+        width: 112px;
+        padding-bottom: 8px;
+    }
+    .titel-ourmenu {
+      font-size: 40px;
+      padding-top: 72px;
+      padding-bottom: 40px;
+    }
+    .ourmenu {
+      padding-right: 16px;
+      padding-left: 16px; 
+      padding-bottom: 72px;
+    }
+    .ramen-photo {
+      width: 343px;
+      height: 343px;
+      padding-right: 0px;
+      padding-bottom: 16px;
+    }
+    .ramen-photo-right {
+      width: 343px;
+      height: 343px;
+      padding-left: 0px;
+      padding-bottom: 16px;
+    }
+    td {
+      font-size: 24px;
+      text-align: start;
+    }
+    .shio-photo {
+      padding-bottom: 24px;
+    }
+    .table-ramen {
+      max-width: 350px;
+      padding-bottom: 32px;
+    }
+   
+    .price {
+      text-align: end;
+    }
+    .ramen-titel {
+      font-size: 32px;
+    }
+    .ramen-tonkotsu {
+      flex-direction: column;
+    }
+  .ramen-spicymiso{
+    flex-direction: column;
+  }
+  .ramen-shio {
+    flex-direction: column;
+  }
+  .shio-table {
+    padding-bottom: 0;
+  }
+     .footer {
+      padding-left: 16px;
+      padding-right: 16px;
+      justify-content: space-between;
+      height: 84px;
+    }
+    .logo-sakura-footer {
+    display: none;
+    }
+    .logo-sakura-media {
+      visibility: visible;
+      height: 44px;
+
+    }
+
+  .titel-findusat {
+    padding-bottom: 8px;
+  }
+  .addres {
+      font-size: 16px;
+      text-align: center;
+      padding-left: 16px;
+      padding-right: 16px;
+      gap: 1px;
+      padding-bottom: 40px;
+    }
+    .sociallogo {
+      width: 32px;
+      height: 32px;
+    }
+    
+}
+@media(max-width: 1280px) and (min-width: 768px) {
+      .hide-mobile {
+        display: none;
+    }
+    .company-name {
+        font-size: 72px;
+    }
+    .nav-container {
+    padding-right: 24px;
+    padding-left: 24px;
+    align-items: center;
+    height: 112px;
+    }
+    .logoflower {
+      width: 64px;
+      height: 64px;
+    }
+    .phone-btm {
+      font-size: 20px;
+    }
+    .slogan{
+      font-size: 20px;
+    }
+    .titelcontainer {
+        padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    p {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    h2 {
+        padding-right: 24px;
+        padding-left: 24px; 
+        font-size: 64px;
+        padding-top: 96px;
+        padding-bottom: 48px;
+    }
+  
+    .text-dishes {
+        font-size: 32px;
+    }
+    .howtoorder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-dishes {
+        width: 112px;
+        padding-bottom: 8px;
+    }
+    .dishes {
+     padding-left: 0;
+     padding-right: 0;
+    }
+    .titel-ourmenu {
+      font-size: 64px;
+      padding-top: 96px;
+      padding-bottom: 48px;
+    }
+    .ourmenu {
+      padding-right: 24px;
+      padding-left: 24px; 
+      padding-bottom: 96px;
+    }
+    .ramen-photo {
+      width: 352px;
+      height: 352px;
+      padding-right: 24px;
+    }
+
+    .ramen-photo-right {
+      width: 352px;
+      height: 352px;
+      padding-left:24px;
+    }
+    td {
+      font-size: 24px;
+      text-align: start;
+    }
+    .shio-photo {
+      padding-bottom: 24px;
+    }
+    .table-ramen {
+      max-width: 350px;
+      padding-bottom: 0px;
+    }
+   
+    .price {
+      text-align: end;
+    }
+    .ramen-titel {
+      font-size: 32px;
+    }
+   
+  .shio-table {
+    padding-bottom: 0;
+  }
+    .ramen-tonkotsu {
+      padding-bottom: 32px;
+    }
+  .ramen-spicymiso{
+   padding-bottom: 32px;
+  }
+    .footer {
+      padding-left: 24px;
+      padding-right: 24px;
+      justify-content: space-between;
+      height: 144px;
+    }
+    .logo-sakura-footer {
+     height: 44px;
+    }
+    .logo-sakura-media {
+      visibility: hidden;
+    }
+
+  .titel-findusat {
+    padding-bottom: 8px;
+  }
+  .addres {
+      font-size: 20px;
+      text-align: center;
+      padding-left: 24px;
+      padding-right: 24px;
+      gap: 1px;
+      padding-bottom: 48px;
+    }
+    .sociallogo {
+      width: 40px;
+      height: 40px;
+    }
+    
+  
+}
+@media(max-width: 355px) {
+  
+  .ramen-photo {
+      width: 100%;
+      height: auto;
+}
+.ramen-photo-right {
+      width: 100%;
+      height: auto;
+      padding-left: 0px;
+      padding-bottom: 16px;
+    }
+    .dishes {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .table-ramen {
+      width: 100%;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    .company-name {
+        font-size: 30px;
+    }
+    
+}
+@media (max-width: 530px) {
+    .company-name {
+        font-size: 40px;
+    }
+    
+}
+
+    
+
+
+   
